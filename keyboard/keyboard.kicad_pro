@@ -60,7 +60,7 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.5,
+          "min_clearance": 0.0,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 1,
@@ -150,7 +150,7 @@
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.25,
+        "min_hole_clearance": 0.15,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
@@ -511,7 +511,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.1,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -522,7 +522,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.15,
         "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3,
@@ -714,7 +714,7 @@
         "uuid": "bccac583-f91a-4dba-a5b2-5acc3b1b8fe7"
       }
     ],
-    "used_designators": "C5,R4-5,#PWR21,#PWR55",
+    "used_designators": "FUELOUT1,REG1,SRCLK1-2,SCROLL2,NUM2,USB_on1,#PWR21,#PWR55-56,3.3V1,SER1,R4-5,TP1-35,#FLG1-9,C5,VBUS1,GND1,DIS1,CAPS2,TPVBUS1,CHOUT1,CHG1,BAT+1,RCLK1,BAT\\-1-2",
     "variants": []
   },
   "sheets": [

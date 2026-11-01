@@ -14,8 +14,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 0 2.54 0)
+			(property "Reference" "U3"
+				(at 0 30.48 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -25,7 +25,7 @@
 				)
 			)
 			(property "Value" "BQ24032ARHLR"
-				(at 0 0 0)
+				(at 0 27.94 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -34,7 +34,7 @@
 					)
 				)
 			)
-			(property "Footprint" "RHL0020A"
+			(property "Footprint" "footprints:RHL0020A"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -240,24 +240,6 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 20.32 2.54 180)
-					(length 5.08)
-					(name "BAT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at -20.32 5.08 0)
 					(length 5.08)
@@ -402,60 +384,6 @@
 						)
 					)
 				)
-				(pin output line
-					(at 20.32 15.24 180)
-					(length 5.08)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 20.32 12.7 180)
-					(length 5.08)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 20.32 10.16 180)
-					(length 5.08)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin open_collector line
 					(at -20.32 -12.7 0)
 					(length 5.08)
@@ -521,6 +449,203 @@
 						)
 					)
 					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "BQ24032ARHLR_1_1"
+				(pin passive line
+					(at 20.32 2.54 180)
+					(length 5.08)
+					(name "BAT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 20.32 15.24 180)
+					(length 5.08)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 12.7 180)
+					(length 5.08)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 10.16 180)
+					(length 5.08)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1674,10 +1799,28 @@
 		(uuid "68bd5f1c-ea4c-4087-9b69-4e25767a6759")
 	)
 	(junction
+		(at 165.1 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7912b5f5-c76e-408d-96e0-3d6223536fbd")
+	)
+	(junction
+		(at 87.63 186.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8ce6c580-1f2c-4884-abb0-3b17109d58cc")
+	)
+	(junction
 		(at 77.47 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "927ac2d5-91d1-45a5-afe0-edcf7fd9aa9f")
+	)
+	(junction
+		(at 87.63 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a7de2b23-f930-4eb1-b637-a767021207ab")
 	)
 	(junction
 		(at 189.23 76.2)
@@ -1698,6 +1841,12 @@
 		(uuid "cdce44f1-8c35-45f3-8e5e-7a4b315302fa")
 	)
 	(junction
+		(at 87.63 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d0a62a76-6fd8-491c-8eaa-71133ee44fc9")
+	)
+	(junction
 		(at 161.29 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1715,6 +1864,12 @@
 		(color 0 0 0 0)
 		(uuid "e57a3640-1a1f-41cd-a194-0b71d512b30a")
 	)
+	(junction
+		(at 177.8 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ebd7a3ac-3d0e-4cc3-b5b6-b1e00c6407ea")
+	)
 	(no_connect
 		(at 115.57 63.5)
 		(uuid "0ccaa0ce-8b44-46d6-b831-22efd005d715")
@@ -1726,6 +1881,16 @@
 	(no_connect
 		(at 115.57 91.44)
 		(uuid "fc2a5d98-42ba-4758-84b1-1104a21d66b1")
+	)
+	(wire
+		(pts
+			(xy 161.29 101.6) (xy 165.1 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "069770bb-dd7c-46ee-9358-fb47526567d9")
 	)
 	(wire
 		(pts
@@ -1789,6 +1954,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 96.52) (xy 161.29 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1303aa36-fd23-4606-93f4-b0786325a5d0")
+	)
+	(wire
+		(pts
 			(xy 93.98 121.92) (xy 93.98 129.54)
 		)
 		(stroke
@@ -1819,13 +1994,23 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 158.75) (xy 77.47 158.75)
+			(xy 93.98 158.75) (xy 87.63 158.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "172a5b83-fcc8-43e5-bc12-a9042fee0b7c")
+	)
+	(wire
+		(pts
+			(xy 177.8 63.5) (xy 185.42 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d2b1417-c462-4ff2-8029-fd4f620b3036")
 	)
 	(wire
 		(pts
@@ -1859,7 +2044,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 129.54) (xy 77.47 129.54)
+			(xy 93.98 129.54) (xy 87.63 129.54)
 		)
 		(stroke
 			(width 0)
@@ -1899,7 +2084,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 63.5) (xy 185.42 63.5)
+			(xy 168.91 63.5) (xy 177.8 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1939,7 +2124,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 100.33) (xy 165.1 102.87)
+			(xy 165.1 100.33) (xy 165.1 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2059,7 +2244,17 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 186.69) (xy 77.47 186.69)
+			(xy 87.63 158.75) (xy 77.47 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c211fb3-f4cd-4dcb-9ce7-30d238d07d76")
+	)
+	(wire
+		(pts
+			(xy 93.98 186.69) (xy 87.63 186.69)
 		)
 		(stroke
 			(width 0)
@@ -2126,6 +2321,16 @@
 			(type default)
 		)
 		(uuid "a09c7cce-c933-4030-bd91-59fb75ea2759")
+	)
+	(wire
+		(pts
+			(xy 87.63 129.54) (xy 77.47 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a17e28c5-0f6a-4e64-9380-4fb12f8566e6")
 	)
 	(wire
 		(pts
@@ -2196,6 +2401,16 @@
 			(type default)
 		)
 		(uuid "b0e65709-471c-49db-9ec4-c78b810dd4d7")
+	)
+	(wire
+		(pts
+			(xy 156.21 96.52) (xy 161.29 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4bda987-aec9-460d-8799-acbf8c68bb02")
 	)
 	(wire
 		(pts
@@ -2319,6 +2534,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 186.69) (xy 77.47 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed5a2e6d-ffa5-44f4-bd12-9bd4a5866e96")
+	)
+	(wire
+		(pts
 			(xy 97.79 151.13) (xy 93.98 151.13)
 		)
 		(stroke
@@ -2336,6 +2561,16 @@
 			(type default)
 		)
 		(uuid "f749ff06-df97-40d3-92f8-c41fbb4c6d70")
+	)
+	(wire
+		(pts
+			(xy 165.1 101.6) (xy 165.1 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f841f318-b873-4faa-a8c9-e53d01a63ff6")
 	)
 	(wire
 		(pts
@@ -2983,7 +3218,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 106.68 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -3026,6 +3261,85 @@
 			(project "keyboard"
 				(path "/bccac583-f91a-4dba-a5b2-5acc3b1b8fe7/a82891c3-f14a-4751-870c-722f7c56f2dd"
 					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 177.8 63.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1ad37bb1-5875-43e2-8743-52d41c98c581")
+		(property "Reference" "CHOUT1"
+			(at 180.34 58.9279 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 180.34 61.4679 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
+			(at 182.88 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 177.8 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ea2a4354-0692-445e-9996-8c12788095a5")
+		)
+		(instances
+			(project "keyboard"
+				(path "/bccac583-f91a-4dba-a5b2-5acc3b1b8fe7/a82891c3-f14a-4751-870c-722f7c56f2dd"
+					(reference "CHOUT1")
 					(unit 1)
 				)
 			)
@@ -3301,7 +3615,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 77.47 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -3459,7 +3773,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 29.21 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -3783,7 +4097,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 203.2 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -3826,6 +4140,85 @@
 			(project "keyboard"
 				(path "/bccac583-f91a-4dba-a5b2-5acc3b1b8fe7/a82891c3-f14a-4751-870c-722f7c56f2dd"
 					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 87.63 186.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "83f23f37-7a65-49c3-be79-a86a4b6e3dcc")
+		(property "Reference" "STAT2"
+			(at 90.17 182.1179 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 90.17 184.6579 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
+			(at 92.71 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 87.63 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "70178b9b-2c48-4c00-b277-f7674b26bcf4")
+		)
+		(instances
+			(project "keyboard"
+				(path "/bccac583-f91a-4dba-a5b2-5acc3b1b8fe7/a82891c3-f14a-4751-870c-722f7c56f2dd"
+					(reference "STAT2")
 					(unit 1)
 				)
 			)
@@ -3943,7 +4336,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 77.47 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -3986,6 +4379,85 @@
 			(project "keyboard"
 				(path "/bccac583-f91a-4dba-a5b2-5acc3b1b8fe7/a82891c3-f14a-4751-870c-722f7c56f2dd"
 					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 87.63 129.54 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "99f3c834-57d5-402f-831d-c469a5ecb41c")
+		(property "Reference" "USB_on1"
+			(at 90.17 124.9679 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 90.17 127.5079 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
+			(at 92.71 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 87.63 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e3aae7e6-aace-4fb0-9600-0368b3c47f1e")
+		)
+		(instances
+			(project "keyboard"
+				(path "/bccac583-f91a-4dba-a5b2-5acc3b1b8fe7/a82891c3-f14a-4751-870c-722f7c56f2dd"
+					(reference "USB_on1")
 					(unit 1)
 				)
 			)
@@ -4131,6 +4603,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 87.63 158.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9efc9483-52de-4d03-b40c-968cd4c49cb4")
+		(property "Reference" "STAT1"
+			(at 90.17 154.1779 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 90.17 156.7179 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
+			(at 92.71 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 87.63 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c1cef216-d226-41be-aa77-b8a33c7beb7d")
+		)
+		(instances
+			(project "keyboard"
+				(path "/bccac583-f91a-4dba-a5b2-5acc3b1b8fe7/a82891c3-f14a-4751-870c-722f7c56f2dd"
+					(reference "STAT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 77.47 152.4 90)
 		(unit 1)
@@ -4164,7 +4715,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 77.47 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -4257,7 +4808,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 93.98 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -4495,7 +5046,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 77.47 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -4588,7 +5139,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 168.91 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -4670,7 +5221,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 93.98 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -4752,7 +5303,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 35.56 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -4912,7 +5463,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 77.47 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -4994,7 +5545,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 77.47 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -5087,7 +5638,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 165.1 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -5247,7 +5798,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 30.48 162.56 0)
 			(hide yes)
 			(show_name no)

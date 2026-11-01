@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 2,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [
@@ -20,8 +20,7 @@
       "unconnected-(U5-ALRT{slash}PIO-Pad10)",
       "unconnected-(U3-LDO-Pad1)",
       "unconnected-(U3-AC-Pad4)",
-      "unconnected-(U3-ACPG_N-Pad18)",
-      "unconnected-(U3-EP-Pad21)"
+      "unconnected-(U3-ACPG_N-Pad18)"
     ],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
@@ -68,7 +67,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "00000000_00000000_0ffffff7_ffffffff",
+    "visible_layers": "ffffffff_ffffffff_fffffff5_ffffffff",
     "zone_display_mode": 0
   },
   "git": {

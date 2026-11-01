@@ -1384,16 +1384,6 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 134.62) (xy 153.67 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18ffe451-5799-430a-b12e-a598c18d41ef")
-	)
-	(wire
-		(pts
 			(xy 425.45 167.64) (xy 425.45 173.99)
 		)
 		(stroke
@@ -1411,6 +1401,16 @@
 			(type default)
 		)
 		(uuid "1b0ebb48-55de-46c1-90db-3a90436de420")
+	)
+	(wire
+		(pts
+			(xy 425.45 157.48) (xy 448.31 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cfa41bf-3bb1-4c72-9143-890a2c998b4c")
 	)
 	(wire
 		(pts
@@ -1441,6 +1441,16 @@
 			(type default)
 		)
 		(uuid "1eae86b7-b3a9-42c4-afe0-01a4e763df5f")
+	)
+	(wire
+		(pts
+			(xy 425.45 207.01) (xy 448.31 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1eca48b6-0086-4b4d-af93-f4ee4392702e")
 	)
 	(wire
 		(pts
@@ -1884,6 +1894,16 @@
 	)
 	(wire
 		(pts
+			(xy 425.45 173.99) (xy 448.31 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4795ad96-5fb9-4022-9d48-bc99310da73f")
+	)
+	(wire
+		(pts
 			(xy 87.63 184.15) (xy 90.17 184.15)
 		)
 		(stroke
@@ -2074,16 +2094,6 @@
 	)
 	(wire
 		(pts
-			(xy 425.45 157.48) (xy 448.31 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58542d18-8a39-4fd9-936a-67d8c04f15f1")
-	)
-	(wire
-		(pts
 			(xy 417.83 167.64) (xy 420.37 167.64)
 		)
 		(stroke
@@ -2091,6 +2101,16 @@
 			(type default)
 		)
 		(uuid "586bd812-d5f7-4e78-8720-dad87ad6c7b1")
+	)
+	(wire
+		(pts
+			(xy 425.45 140.97) (xy 448.31 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59ecebb9-df73-4a91-a207-db7c826f5959")
 	)
 	(wire
 		(pts
@@ -2291,16 +2311,6 @@
 			(type default)
 		)
 		(uuid "70bcd370-307b-40e3-94a2-e3a9c8ba21d8")
-	)
-	(wire
-		(pts
-			(xy 425.45 207.01) (xy 448.31 207.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71281602-0877-4e72-8ecf-ac438bf6736a")
 	)
 	(wire
 		(pts
@@ -2744,16 +2754,6 @@
 	)
 	(wire
 		(pts
-			(xy 425.45 140.97) (xy 448.31 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99f04f01-3ab9-48a6-891c-6374489c168d")
-	)
-	(wire
-		(pts
 			(xy 222.25 190.5) (xy 196.85 190.5)
 		)
 		(stroke
@@ -3191,6 +3191,16 @@
 			(type default)
 		)
 		(uuid "c1c3e61c-cc03-4a5c-a550-0ef4f9a0668a")
+	)
+	(wire
+		(pts
+			(xy 153.67 134.62) (xy 153.67 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c210138b-c794-44f8-919c-806910137e37")
 	)
 	(wire
 		(pts
@@ -3751,16 +3761,6 @@
 			(type default)
 		)
 		(uuid "fd5f53ba-5b2e-4abf-acb1-03764fc2d740")
-	)
-	(wire
-		(pts
-			(xy 425.45 173.99) (xy 448.31 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fdfb6e14-04f6-4505-a2ff-3935cb5490ee")
 	)
 	(wire
 		(pts
@@ -4374,7 +4374,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 92.71 167.64 90)
 			(hide yes)
 			(show_name no)
@@ -4476,7 +4476,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 346.71 200.66 90)
 			(hide yes)
 			(show_name no)
@@ -4578,7 +4578,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 194.31 151.13 90)
 			(hide yes)
 			(show_name no)
@@ -4680,7 +4680,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 168.91 151.13 90)
 			(hide yes)
 			(show_name no)
@@ -4782,7 +4782,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 397.51 200.66 90)
 			(hide yes)
 			(show_name no)
@@ -4884,7 +4884,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 194.31 167.64 90)
 			(hide yes)
 			(show_name no)
@@ -5066,7 +5066,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 219.71 200.66 90)
 			(hide yes)
 			(show_name no)
@@ -5168,7 +5168,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 422.91 151.13 90)
 			(hide yes)
 			(show_name no)
@@ -5670,7 +5670,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 321.31 200.66 90)
 			(hide yes)
 			(show_name no)
@@ -5852,7 +5852,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 270.51 167.64 90)
 			(hide yes)
 			(show_name no)
@@ -5954,7 +5954,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 270.51 184.15 90)
 			(hide yes)
 			(show_name no)
@@ -6056,7 +6056,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 245.11 184.15 90)
 			(hide yes)
 			(show_name no)
@@ -6478,7 +6478,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 168.91 184.15 90)
 			(hide yes)
 			(show_name no)
@@ -6660,7 +6660,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 295.91 167.64 90)
 			(hide yes)
 			(show_name no)
@@ -6762,7 +6762,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 92.71 134.62 90)
 			(hide yes)
 			(show_name no)
@@ -6944,7 +6944,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 118.11 184.15 90)
 			(hide yes)
 			(show_name no)
@@ -7446,7 +7446,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 92.71 184.15 90)
 			(hide yes)
 			(show_name no)
@@ -7548,7 +7548,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 143.51 167.64 90)
 			(hide yes)
 			(show_name no)
@@ -7650,7 +7650,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 422.91 167.64 90)
 			(hide yes)
 			(show_name no)
@@ -7752,7 +7752,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 295.91 184.15 90)
 			(hide yes)
 			(show_name no)
@@ -7854,7 +7854,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 346.71 184.15 90)
 			(hide yes)
 			(show_name no)
@@ -7956,7 +7956,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 270.51 151.13 90)
 			(hide yes)
 			(show_name no)
@@ -8058,7 +8058,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 219.71 184.15 90)
 			(hide yes)
 			(show_name no)
@@ -8320,7 +8320,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 295.91 200.66 90)
 			(hide yes)
 			(show_name no)
@@ -8422,7 +8422,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 168.91 134.62 90)
 			(hide yes)
 			(show_name no)
@@ -8604,7 +8604,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 372.11 134.62 90)
 			(hide yes)
 			(show_name no)
@@ -8706,7 +8706,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 245.11 134.62 90)
 			(hide yes)
 			(show_name no)
@@ -8888,7 +8888,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 321.31 184.15 90)
 			(hide yes)
 			(show_name no)
@@ -9230,7 +9230,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 372.11 200.66 90)
 			(hide yes)
 			(show_name no)
@@ -9412,7 +9412,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 346.71 167.64 90)
 			(hide yes)
 			(show_name no)
@@ -9514,7 +9514,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 295.91 151.13 90)
 			(hide yes)
 			(show_name no)
@@ -9616,7 +9616,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 346.71 134.62 90)
 			(hide yes)
 			(show_name no)
@@ -9718,7 +9718,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 92.71 151.13 90)
 			(hide yes)
 			(show_name no)
@@ -9820,7 +9820,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 397.51 134.62 90)
 			(hide yes)
 			(show_name no)
@@ -10402,7 +10402,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 397.51 151.13 90)
 			(hide yes)
 			(show_name no)
@@ -10504,7 +10504,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 397.51 184.15 90)
 			(hide yes)
 			(show_name no)
@@ -10606,7 +10606,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 321.31 167.64 90)
 			(hide yes)
 			(show_name no)
@@ -10708,7 +10708,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 219.71 134.62 90)
 			(hide yes)
 			(show_name no)
@@ -10810,7 +10810,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 67.31 200.66 90)
 			(hide yes)
 			(show_name no)
@@ -10992,7 +10992,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 422.91 134.62 90)
 			(hide yes)
 			(show_name no)
@@ -11174,7 +11174,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 168.91 167.64 90)
 			(hide yes)
 			(show_name no)
@@ -11516,7 +11516,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 372.11 167.64 90)
 			(hide yes)
 			(show_name no)
@@ -11618,7 +11618,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 270.51 134.62 90)
 			(hide yes)
 			(show_name no)
@@ -11800,7 +11800,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 372.11 151.13 90)
 			(hide yes)
 			(show_name no)
@@ -12142,7 +12142,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 295.91 134.62 90)
 			(hide yes)
 			(show_name no)
@@ -12244,7 +12244,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 245.11 167.64 90)
 			(hide yes)
 			(show_name no)
@@ -12346,7 +12346,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 422.91 184.15 90)
 			(hide yes)
 			(show_name no)
@@ -12528,7 +12528,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 118.11 167.64 90)
 			(hide yes)
 			(show_name no)
@@ -12630,7 +12630,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 118.11 200.66 90)
 			(hide yes)
 			(show_name no)
@@ -12732,7 +12732,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 67.31 151.13 90)
 			(hide yes)
 			(show_name no)
@@ -12834,7 +12834,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 118.11 151.13 90)
 			(hide yes)
 			(show_name no)
@@ -12936,7 +12936,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 92.71 200.66 90)
 			(hide yes)
 			(show_name no)
@@ -13198,7 +13198,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 143.51 151.13 90)
 			(hide yes)
 			(show_name no)
@@ -13380,7 +13380,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 219.71 167.64 90)
 			(hide yes)
 			(show_name no)
@@ -13642,7 +13642,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 194.31 134.62 90)
 			(hide yes)
 			(show_name no)
@@ -13904,7 +13904,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 346.71 151.13 90)
 			(hide yes)
 			(show_name no)
@@ -14246,7 +14246,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 67.31 167.64 90)
 			(hide yes)
 			(show_name no)
@@ -14428,7 +14428,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 118.11 134.62 90)
 			(hide yes)
 			(show_name no)
@@ -14530,7 +14530,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 422.91 200.66 90)
 			(hide yes)
 			(show_name no)
@@ -14712,7 +14712,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 143.51 184.15 90)
 			(hide yes)
 			(show_name no)
@@ -15054,7 +15054,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 219.71 151.13 90)
 			(hide yes)
 			(show_name no)
@@ -15236,7 +15236,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 321.31 151.13 90)
 			(hide yes)
 			(show_name no)
@@ -15338,7 +15338,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 321.31 134.62 90)
 			(hide yes)
 			(show_name no)
@@ -15520,7 +15520,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 143.51 134.62 90)
 			(hide yes)
 			(show_name no)
@@ -16262,7 +16262,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 194.31 184.15 90)
 			(hide yes)
 			(show_name no)
@@ -16364,7 +16364,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 245.11 151.13 90)
 			(hide yes)
 			(show_name no)
@@ -16466,7 +16466,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 372.11 184.15 90)
 			(hide yes)
 			(show_name no)
@@ -16568,7 +16568,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 67.31 184.15 90)
 			(hide yes)
 			(show_name no)
@@ -16750,7 +16750,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 67.31 134.62 90)
 			(hide yes)
 			(show_name no)
