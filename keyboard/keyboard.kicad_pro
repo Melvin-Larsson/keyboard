@@ -522,7 +522,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.15,
+        "track_width": 0.2,
         "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3,
@@ -714,7 +714,7 @@
         "uuid": "bccac583-f91a-4dba-a5b2-5acc3b1b8fe7"
       }
     ],
-    "used_designators": "FUELOUT1,REG1,SRCLK1-2,SCROLL2,NUM2,USB_on1,#PWR21,#PWR55-56,3.3V1,SER1,R4-5,TP1-35,#FLG1-9,C5,VBUS1,GND1,DIS1,CAPS2,TPVBUS1,CHOUT1,CHG1,BAT+1,RCLK1,BAT\\-1-2",
+    "used_designators": "C5,VBUS1,SER1,R4-5,3.3V1,#PWR21,#PWR55-56,USB_on1,#FLG1-9,NUM2,SCROLL2,BAT\\-1-2,RCLK1,CHOUT1,BAT+1,CHG1,TPVBUS1,CAPS2,DIS1,GND1,FUELOUT1,TP1-35,REG1,SRCLK1-2",
     "variants": []
   },
   "sheets": [

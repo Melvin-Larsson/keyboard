@@ -52,3 +52,7 @@ https://www.digikey.se/sv/products/detail/kingbright/APT1608CGCK/1747514
 # Crystal
 ECS-320-8-37B-CKY-TR
 https://www.digikey.se/sv/products/detail/ecs-inc/ECS-320-8-37B-CKY-TR/9838854
+
+# Diode
+1N4448WS
+https://www.digikey.se/sv/products/detail/shenzhen-slkormicro-semicon-co-ltd/1N4448WS/26112891
