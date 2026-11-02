@@ -2093,7 +2093,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "0.1μF"
 			(at 199.39 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)

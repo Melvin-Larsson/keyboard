@@ -2088,7 +2088,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10μF"
 			(at 78.74 81.2799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2248,7 +2248,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10μF"
 			(at 162.56 76.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2565,7 +2565,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "0.1μF"
 			(at 93.98 85.0899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2647,7 +2647,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "100Ω"
 			(at 93.98 77.4699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2992,7 +2992,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2.2u"
+		(property "Value" "2.2μH"
 			(at 118.11 87.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3230,7 +3230,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10μF"
 			(at 176.53 76.1999 0)
 			(show_name no)
 			(do_not_autoplace no)

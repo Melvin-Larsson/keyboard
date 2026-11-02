@@ -1517,7 +1517,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:USB_C_Plug_USB2.0"
+		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
 			(pin_names
 				(offset 1.016)
 			)
@@ -1526,26 +1526,24 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "P"
-				(at -10.16 19.05 0)
+			(property "Reference" "J"
+				(at 0 22.225 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "USB_C_Plug_USB2.0"
-				(at 12.7 19.05 0)
+			(property "Value" "USB_C_Receptacle_USB2.0_16P"
+				(at 0 19.685 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right)
 				)
 			)
 			(property "Footprint" ""
@@ -1570,7 +1568,7 @@
 					)
 				)
 			)
-			(property "Description" "USB 2.0-only Type-C Plug connector"
+			(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1592,7 +1590,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "USB*C*Plug*"
+			(property "ki_fp_filters" "USB*C*Receptacle*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1603,7 +1601,7 @@
 					)
 				)
 			)
-			(symbol "USB_C_Plug_USB2.0_0_0"
+			(symbol "USB_C_Receptacle_USB2.0_16P_0_0"
 				(rectangle
 					(start -0.254 -17.78)
 					(end 0.254 -16.764)
@@ -1660,6 +1658,17 @@
 					)
 				)
 				(rectangle
+					(start 10.16 0.254)
+					(end 9.144 -0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
 					(start 10.16 -2.286)
 					(end 9.144 -2.794)
 					(stroke
@@ -1670,8 +1679,41 @@
 						(type none)
 					)
 				)
+				(rectangle
+					(start 10.16 -4.826)
+					(end 9.144 -5.334)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 -12.446)
+					(end 9.144 -12.954)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 -14.986)
+					(end 9.144 -15.494)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 			)
-			(symbol "USB_C_Plug_USB2.0_0_1"
+			(symbol "USB_C_Receptacle_USB2.0_16P_0_1"
 				(rectangle
 					(start -10.16 17.78)
 					(end 10.16 -17.78)
@@ -1872,7 +1914,7 @@
 					)
 				)
 			)
-			(symbol "USB_C_Plug_USB2.0_1_1"
+			(symbol "USB_C_Receptacle_USB2.0_16P_1_1"
 				(pin passive line
 					(at 0 -22.86 90)
 					(length 5.08)
@@ -1912,7 +1954,7 @@
 				(pin bidirectional line
 					(at 15.24 10.16 180)
 					(length 5.08)
-					(name "CC"
+					(name "CC1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1956,6 +1998,24 @@
 						)
 					)
 					(number "A7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -12.7 180)
+					(length 5.08)
+					(name "SBU1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2042,7 +2102,7 @@
 				(pin bidirectional line
 					(at 15.24 7.62 180)
 					(length 5.08)
-					(name "VCONN"
+					(name "CC2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2050,6 +2110,60 @@
 						)
 					)
 					(number "B5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -5.08 180)
+					(length 5.08)
+					(name "D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 0 180)
+					(length 5.08)
+					(name "D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -15.24 180)
+					(length 5.08)
+					(name "SBU2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4288,6 +4402,12 @@
 		(uuid "54d78f64-57a6-4661-9a43-a3d8b486e71e")
 	)
 	(junction
+		(at 55.88 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "56029443-42ff-47a5-a894-c3cc41ed3f3c")
+	)
+	(junction
 		(at 199.39 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4304,6 +4424,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "63a539ec-b64c-4444-8466-6b8c4c004c55")
+	)
+	(junction
+		(at 55.88 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "69202ca8-e081-42ff-bdde-1406bc439c0f")
 	)
 	(junction
 		(at 73.66 45.72)
@@ -4440,6 +4566,14 @@
 	(no_connect
 		(at 184.15 99.06)
 		(uuid "12f13134-297b-4786-9b68-28ce29090dd9")
+	)
+	(no_connect
+		(at 55.88 173.99)
+		(uuid "3a2e19bf-77c8-45c7-93f6-22ef3f7f7b39")
+	)
+	(no_connect
+		(at 55.88 171.45)
+		(uuid "88b312f6-9891-4b71-b72b-6b24c46f1ca8")
 	)
 	(no_connect
 		(at 184.15 93.98)
@@ -4698,6 +4832,16 @@
 			(type default)
 		)
 		(uuid "2f06fcec-4c80-4be1-8cfb-95cfa417f6e3")
+	)
+	(wire
+		(pts
+			(xy 55.88 161.29) (xy 55.88 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "319d9b87-b2f7-4041-bc72-1601b629a0c8")
 	)
 	(wire
 		(pts
@@ -6029,6 +6173,16 @@
 		)
 		(uuid "ff16438b-f4c0-463d-b742-5a38041cc2f8")
 	)
+	(wire
+		(pts
+			(xy 55.88 158.75) (xy 55.88 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff4caafa-fd05-414d-941e-5adbb0d8aee3")
+	)
 	(label "D+"
 		(at 59.69 161.29 0)
 		(effects
@@ -6905,7 +7059,7 @@
 				)
 			)
 		)
-		(property "Value" "1.0uF"
+		(property "Value" "1.0μF"
 			(at 193.0336 46.99 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6915,7 +7069,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 193.04 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -7381,7 +7535,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "100kΩ"
 			(at 44.45 91.4399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7714,7 +7868,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nf"
+		(property "Value" "100nF"
 			(at 99.06 54.6162 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7774,7 +7928,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:USB_C_Plug_USB2.0")
+		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
 		(at 40.64 158.75 0)
 		(unit 1)
 		(body_style 1)
@@ -7827,7 +7981,7 @@
 				)
 			)
 		)
-		(property "Description" "USB 2.0-only Type-C Plug connector"
+		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
 			(at 40.64 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -7876,6 +8030,18 @@
 		)
 		(pin "A4"
 			(uuid "14af8031-8d81-4254-b2c1-19d37093cb2d")
+		)
+		(pin "A8"
+			(uuid "0f17898e-5621-4f25-9671-6424930c9e27")
+		)
+		(pin "B8"
+			(uuid "e8c82ae2-f1c8-4893-a2c2-f29f099dec88")
+		)
+		(pin "B7"
+			(uuid "37925b34-791e-41d9-944d-373a1e599733")
+		)
+		(pin "B6"
+			(uuid "1682f3c4-6bb2-416d-a060-d5f8370b6d43")
 		)
 		(instances
 			(project "keyboard"
@@ -7989,7 +8155,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5.1k"
+		(property "Value" "5.1kΩ"
 			(at 80.01 157.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8163,7 +8329,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "100kΩ"
 			(at 86.36 44.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8894,7 +9060,7 @@
 				)
 			)
 		)
-		(property "Value" "1.0uF"
+		(property "Value" "1.0μF"
 			(at 203.2063 53.34 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8904,7 +9070,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 203.2 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -9054,7 +9220,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7uF"
+		(property "Value" "4.7μF"
 			(at 80.01 72.3962 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9065,7 +9231,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 77.47 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -9529,10 +9695,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6efa1947-ba70-4f43-ba08-7a03a0cbe968")
 		(property "Reference" "C3"
-			(at 261.6263 102.87 90)
+			(at 263.906 102.87 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9541,7 +9706,7 @@
 				)
 			)
 		)
-		(property "Value" "12pf"
+		(property "Value" "12pF"
 			(at 261.6263 105.41 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10567,7 +10732,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "100kΩ"
 			(at 43.18 44.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10648,7 +10813,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7uF"
+		(property "Value" "100nF"
 			(at 93.9736 95.25 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10728,7 +10893,7 @@
 				)
 			)
 		)
-		(property "Value" "12pf"
+		(property "Value" "12pF"
 			(at 261.6263 86.36 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11139,7 +11304,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "N.C"
 			(at 35.56 185.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11545,7 +11710,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 96.52 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -12291,7 +12456,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5.1k"
+		(property "Value" "5.1kΩ"
 			(at 68.58 157.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12372,7 +12537,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7uF"
+		(property "Value" "4.7μF"
 			(at 93.9863 83.82 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12382,7 +12547,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 93.98 87.63 0)
 			(hide yes)
 			(show_name no)

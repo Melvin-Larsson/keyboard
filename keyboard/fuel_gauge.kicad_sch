@@ -4039,7 +4039,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "0.1μF"
 			(at 69.85 80.0099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4477,7 +4477,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "1kΩ"
 			(at 67.31 142.2399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4888,7 +4888,7 @@
 				)
 			)
 		)
-		(property "Value" "10m"
+		(property "Value" "10mΩ"
 			(at 35.56 119.38 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4969,7 +4969,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "0.1μF"
 			(at 68.58 119.3799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5219,7 +5219,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical"
+		(property "Footprint" "footprints:solder_pads"
 			(at 35.56 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -5367,7 +5367,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "100Ω"
 			(at 55.88 99.06 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5610,7 +5610,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "1kΩ"
 			(at 58.42 73.66 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5769,7 +5769,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "0.1μF"
 			(at 68.58 97.7899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5851,7 +5851,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "4.7kΩ"
 			(at 67.31 170.1799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5933,7 +5933,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.47uF"
+		(property "Value" "0.47μF"
 			(at 38.1 143.5099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6189,7 +6189,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x01_P2.54mm_Vertical"
+		(property "Footprint" "footprints:solder_pads"
 			(at 45.72 116.586 90)
 			(hide yes)
 			(show_name no)

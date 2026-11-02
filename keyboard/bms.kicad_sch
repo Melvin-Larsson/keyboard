@@ -3218,7 +3218,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 106.68 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -3763,7 +3763,7 @@
 				)
 			)
 		)
-		(property "Value" "1070"
+		(property "Value" "1070Ω"
 			(at 29.21 133.35 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3933,7 +3933,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical"
+		(property "Footprint" "footprints:solder_pads"
 			(at 180.34 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -4004,7 +4004,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10kΩ"
 			(at 96.52 175.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4015,7 +4015,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 93.98 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -4797,7 +4797,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10kΩ"
 			(at 96.52 118.1099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5139,7 +5139,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 168.91 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -5210,7 +5210,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10kΩ"
 			(at 96.52 147.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5292,7 +5292,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "100kΩ"
 			(at 38.1 116.8399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5627,7 +5627,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "37.4k"
+		(property "Value" "37.4kΩ"
 			(at 167.64 99.0599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5787,7 +5787,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10kΩ"
 			(at 33.02 163.8299 0)
 			(show_name no)
 			(do_not_autoplace no)

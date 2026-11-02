@@ -37,9 +37,6 @@ MAX17303G+: https://www.digikey.se/sv/products/detail/analog-devices-inc-maxim-i
 I think this:
 https://www.digikey.se/sv/products/detail/goford-semiconductor/03N06L/16499561
 
-Maybe this:
-https://www.digikey.se/sv/products/detail/goford-semiconductor/G800N06H/17725196
-
 
 # Switch
 https://www.digikey.se/en/products/detail/c-k/JS202011SCQN/2094299
@@ -56,3 +53,6 @@ https://www.digikey.se/sv/products/detail/ecs-inc/ECS-320-8-37B-CKY-TR/9838854
 # Diode
 1N4448WS
 https://www.digikey.se/sv/products/detail/shenzhen-slkormicro-semicon-co-ltd/1N4448WS/26112891
+
+# Shift
+SN74HC595PWR
