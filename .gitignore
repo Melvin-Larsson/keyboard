@@ -5,3 +5,4 @@ keyboard/_restore_backup*
 *.FCBak
 keyboard/keyboard-backups
 gerbers.zip
+*.lck
