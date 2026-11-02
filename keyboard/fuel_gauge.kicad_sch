@@ -3871,7 +3871,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14126992-bc91-4814-8723-16b2543ff07f")
-		(property "Reference" "FUELOUT1"
+		(property "Reference" "FOUT1"
 			(at 46.99 71.6279 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3932,7 +3932,7 @@
 		(instances
 			(project "keyboard"
 				(path "/bccac583-f91a-4dba-a5b2-5acc3b1b8fe7/a82891c3-f14a-4751-870c-722f7c56f2dd/6100c968-f7e4-4cee-9364-fcc956eb3f9b"
-					(reference "FUELOUT1")
+					(reference "FOUT1")
 					(unit 1)
 				)
 			)

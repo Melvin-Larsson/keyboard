@@ -1193,7 +1193,7 @@
 			)
 		)
 	)
-	(global_label "col1"
+	(global_label "col15"
 		(shape input)
 		(at 143.51 96.52 270)
 		(fields_autoplaced yes)
@@ -1205,31 +1205,7 @@
 		)
 		(uuid "0f8b31b5-08d4-42fd-b3b1-978b53154eca")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 143.51 100.7787 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "col10"
-		(shape input)
-		(at 115.57 96.52 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 0.762 0.762)
-			)
-			(justify right)
-		)
-		(uuid "146fba00-a7fc-47c6-81d3-db01d5d082f0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 115.57 101.5044 90)
+			(at 143.51 101.5044 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1242,6 +1218,30 @@
 		)
 	)
 	(global_label "col4"
+		(shape input)
+		(at 115.57 96.52 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify right)
+		)
+		(uuid "146fba00-a7fc-47c6-81d3-db01d5d082f0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 115.57 100.7787 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "col9"
 		(shape input)
 		(at 128.27 96.52 270)
 		(fields_autoplaced yes)
@@ -1289,7 +1289,7 @@
 			)
 		)
 	)
-	(global_label "col11"
+	(global_label "col6"
 		(shape input)
 		(at 120.65 96.52 270)
 		(fields_autoplaced yes)
@@ -1301,7 +1301,7 @@
 		)
 		(uuid "256fd4ad-3250-419e-965b-449d7d5819ae")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 120.65 101.5044 90)
+			(at 120.65 100.7787 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1313,7 +1313,7 @@
 			)
 		)
 	)
-	(global_label "col9"
+	(global_label "col2"
 		(shape input)
 		(at 110.49 96.52 270)
 		(fields_autoplaced yes)
@@ -1361,7 +1361,7 @@
 			)
 		)
 	)
-	(global_label "col13"
+	(global_label "col10"
 		(shape input)
 		(at 130.81 96.52 270)
 		(fields_autoplaced yes)
@@ -1385,7 +1385,7 @@
 			)
 		)
 	)
-	(global_label "col6"
+	(global_label "col5"
 		(shape input)
 		(at 118.11 96.52 270)
 		(fields_autoplaced yes)
@@ -1409,7 +1409,7 @@
 			)
 		)
 	)
-	(global_label "col12"
+	(global_label "col8"
 		(shape input)
 		(at 125.73 96.52 270)
 		(fields_autoplaced yes)
@@ -1421,7 +1421,7 @@
 		)
 		(uuid "9f7c2e4b-fec9-4e56-af4a-0d38a6340a59")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 125.73 101.5044 90)
+			(at 125.73 100.7787 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1433,7 +1433,7 @@
 			)
 		)
 	)
-	(global_label "col2"
+	(global_label "col13"
 		(shape input)
 		(at 138.43 96.52 270)
 		(fields_autoplaced yes)
@@ -1445,7 +1445,7 @@
 		)
 		(uuid "a189de8b-1914-4d08-956a-116c79dd64ee")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 138.43 100.7787 90)
+			(at 138.43 101.5044 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1457,7 +1457,7 @@
 			)
 		)
 	)
-	(global_label "col14"
+	(global_label "col12"
 		(shape input)
 		(at 135.89 96.52 270)
 		(fields_autoplaced yes)
@@ -1505,7 +1505,7 @@
 			)
 		)
 	)
-	(global_label "col3"
+	(global_label "col11"
 		(shape input)
 		(at 133.35 96.52 270)
 		(fields_autoplaced yes)
@@ -1517,7 +1517,7 @@
 		)
 		(uuid "a3c2d776-afc2-4033-af89-8d5a6cb73fa8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 133.35 100.7787 90)
+			(at 133.35 101.5044 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1529,7 +1529,7 @@
 			)
 		)
 	)
-	(global_label "col8"
+	(global_label "col1"
 		(shape input)
 		(at 107.95 96.52 270)
 		(fields_autoplaced yes)
@@ -1553,7 +1553,7 @@
 			)
 		)
 	)
-	(global_label "col5"
+	(global_label "col7"
 		(shape input)
 		(at 123.19 96.52 270)
 		(fields_autoplaced yes)
@@ -1577,7 +1577,7 @@
 			)
 		)
 	)
-	(global_label "col7"
+	(global_label "col3"
 		(shape input)
 		(at 113.03 96.52 270)
 		(fields_autoplaced yes)
@@ -1625,7 +1625,7 @@
 			)
 		)
 	)
-	(global_label "col15"
+	(global_label "col14"
 		(shape input)
 		(at 140.97 96.52 270)
 		(fields_autoplaced yes)

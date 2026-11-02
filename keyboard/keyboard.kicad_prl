@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 2,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [
@@ -8,6 +8,7 @@
     ],
     "hidden_nets": [
       "",
+      "GND",
       "unconnected-(P1-SBU1-PadA8)",
       "unconnected-(P1-SBU2-PadB8)",
       "unconnected-(SW2-Pad1)",
