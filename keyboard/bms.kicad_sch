@@ -1712,6 +1712,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "33Uf between BAT and VSS?"
+		(exclude_from_sim no)
+		(at 157.226 33.528 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1007c676-85d0-4726-81fb-923bb34ae7dd")
+	)
 	(text "10h charge (100mA is 0.1C) \n-- I am pretty sure this is false"
 		(exclude_from_sim no)
 		(at 30.48 105.918 0)
@@ -3276,7 +3286,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
+		(property "Footprint" "footprints:TestPoint_THTPad_D2.0mm_Drill1.0mm_no_silk"
 			(at 182.88 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -3509,7 +3519,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:21-0137I_T1433-2_MXM"
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
 			(at 38.1 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -3580,7 +3590,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "330Ω"
 			(at 80.01 115.5699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4155,7 +4165,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
+		(property "Footprint" "footprints:TestPoint_THTPad_D2.0mm_Drill1.0mm_no_silk"
 			(at 92.71 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -4301,7 +4311,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "330Ω"
 			(at 80.01 172.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4394,7 +4404,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
+		(property "Footprint" "footprints:TestPoint_THTPad_D2.0mm_Drill1.0mm_no_silk"
 			(at 92.71 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -4612,7 +4622,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
+		(property "Footprint" "footprints:TestPoint_THTPad_D2.0mm_Drill1.0mm_no_silk"
 			(at 92.71 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -5428,7 +5438,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "330Ω"
 			(at 80.01 144.7799 0)
 			(show_name no)
 			(do_not_autoplace no)

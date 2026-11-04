@@ -1459,6 +1459,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Lets use L=2.2uH, assume max 100mA is used by the system\n\nD = (V_out - V_in) / V_out = (3.3 - 3.0 / 3.3) = 0.091\n\nI_peak = 0.1/(0.9 * (1 - 0.091)) + 3.0 * 0.091 / (2 * 2.5 * 10^6 * 2.2 * 10^-6) \n= 0.147A\n\nApparently I_SAT >= 1.2 I_PEAK = 0.176A"
+		(exclude_from_sim no)
+		(at 183.388 125.222 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0379b187-5799-4c20-84ba-fe1a88c237ee")
+	)
 	(text "Neeed to do some more calculations to pick inductor"
 		(exclude_from_sim no)
 		(at 92.456 115.824 0)
@@ -2099,7 +2109,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 76.2 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -2259,7 +2269,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 160.02 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -2341,7 +2351,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
+		(property "Footprint" "footprints:TestPoint_THTPad_D2.0mm_Drill1.0mm_no_silk"
 			(at 165.1 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -3003,7 +3013,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_6.3x6.3_H3"
+		(property "Footprint" "footprints:IND_LQH3NPN2R2MJRL"
 			(at 116.84 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -3241,7 +3251,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 173.99 74.93 0)
 			(hide yes)
 			(show_name no)

@@ -52,7 +52,44 @@ https://www.digikey.se/sv/products/detail/ecs-inc/ECS-320-8-37B-CKY-TR/9838854
 
 # Diode
 1N4448WS
-https://www.digikey.se/sv/products/detail/shenzhen-slkormicro-semicon-co-ltd/1N4448WS/26112891
+https://www.digikey.se1.25mV resolution (0 to 3.875A with 0.125A resolution using 10mΩ sense resistor). The OD and OC comparators have a/sv/products/detail/shenzhen-slkormicro-semicon-co-ltd/1N4448WS/26112891
 
 # Shift
 SN74HC595PWR
+
+
+# Thersmistor 
+- MF52C1103F3380
+
+We get range 3.7C - 43C when charging ish. Good enough since battery can handle 0C-45C
+
+1/R2 + 1 / (R1 + NTC)
+
+(R1 + NTC + R2) / (R1 + NTC)R2
+
+V = I(1/R2 + 1 / (R1 + NTC))
+
+I = 94-106uA
+
+0.5-2.5
+
+0.485, 0.515
+2.465, 2.535
+
+V < 0.485
+RI < 0.485
+R < 0.485 / I <
+
+R > 3039.19 -> V < 0.485
+With 1% error
+R > 3070 -> V < 0.485
+U/I > 3070 -> U < 0.485
+
+U/I=R
+
+
+3133.45
+
+28223.7
+
+
